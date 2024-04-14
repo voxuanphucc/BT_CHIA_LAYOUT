@@ -1,0 +1,137 @@
+body ,*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 84%;
+    background-color: #ffc0cb;
+    height: 30px;
+}
+
+
+.content{
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    background-color: #4ceba9;
+}
+
+.side_left .side_left1{
+    margin-top: 10px;
+    width: 400px;
+    height: 100px;
+    line-height: 100px;
+    background-color: red;
+}
+
+
+.side_left .side_left2{
+    margin-top: 10px;
+    width: 400px;
+    height: 100px;
+    line-height: 100px;
+    background-color: orange;
+}
+
+.side_right .side_right1{
+    margin-top: 10px;
+    width: 350px;
+    background-color: #f000ff;
+    height: 210px;
+    line-height: 210px;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+}
+
+
+.content2 .side_rightt1{
+    margin-top: 10px;
+    width: 400px;
+    background-color: #810081;
+    height: 100px;
+    line-height: 100px;
+}
+
+
+.content2 .side_rightt2{
+    margin-top: 10px;
+    width: 100px;
+    background-color: #2f8b58;
+    height: 100px;
+    line-height: 100px;
+}
+
+.content2{
+    display: flex;
+    gap: 10px;
+}
+
+
+.content3 .side_rightt3{
+    margin-top: 10px;
+    width: 510px;
+    background-color: #ffff01;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+.content4 .side_rightt4{
+    margin-top: 10px;
+    width: 150px;
+    background-color: #008083;
+    height: 410px;
+    line-height: 400px;
+}
+
+.content4 .side_rightt5{
+    margin-top: 10px;
+    width: 170px;
+    background-color: red;
+    height: 400px;
+    line-height: 400px;
+}
+.content4 .side_rightt6{
+    margin-top: 10px;
+    width: 150px;
+    background-color: #008083;
+    height: 400px;
+    line-height: 400px;
+
+}
+
+.content4{
+    display: flex;
+    gap: 20px;
+}
+
+.content5 .side_rightt7{
+    margin-top: 10px;
+    width: 510px;
+    background-color: #cb9d62;
+    height: 30px;
+    line-height: 30px;
+}
+
+div.s1{
+     margin-top: -10px;
+     
+}
+
+
+
+div.s{
+    display: flex;
+    gap: 20px;
+}
+
+.footer{
+    margin-top: 10px;
+    width: 84%;
+    height: 30px;
+    background-color: black;
+}
