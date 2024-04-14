@@ -120,6 +120,7 @@ body ,*{
 div.s1{
      margin-top: -10px;
      
+     
 }
 
 
@@ -127,6 +128,7 @@ div.s1{
 div.s{
     display: flex;
     gap: 20px;
+    
 }
 
 .footer{
@@ -135,3 +137,4 @@ div.s{
     height: 30px;
     background-color: black;
 }
+
