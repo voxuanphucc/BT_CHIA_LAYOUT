@@ -3,69 +3,99 @@ body ,*{
     padding: 0;
 }
 
-.header{
+.root{
     width: 600px;
-    background-color: #d5b8ee;
-    height: 50px;
-    line-height: 50px;
-    padding: 10px;
-    border: 2px solid black;
-    position: relative;
+    margin: 0 auto;
+    align-items: center;
 }
 
-.menu{
-    width: 200px;
+
+.container .header{
+    width: 100%;
+    background-color: #d5b8ee;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 0 auto;
+
+}
+
+.container .menu{
+    width: 30%;
     background-color: #bff6cf;
-    height: 30px;
-    line-height: 30px;
+    height: 20px;
+    line-height: 20px;
     padding: 10px;
     border: 2px solid black;
     position: absolute;
-    top:10px;
+    top: 10px;
     left: 300px;
-}
-
-
-.content .article1{
-    margin-top: 10px;
-    width: 300px;
-    background-color: #bff6cf;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    border: 2px solid black;
-}
-
-.content .article2{
-
-    margin-top: 10px;
-    width: 300px;
-    background-color: #bff6cf;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    border: 2px solid black;
-}
-
-.content1 .sidebar{
-    width: 310px;
-    background-color: #00a8f3;
-    height: 220px;
-    line-height: 220px;
-    text-align: center;
-    margin-top: 10px;
 }
 
 .container{
     display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.content{
+    width: 50%;
+}
+
+.content .article1{
+    width: 100%;
+    background-color: #bff6cf;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 10px;
+   
+}
+
+.content .article2{
+    width: 100%;
+    background-color: #bff6cf;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 10px;
+   
+}
+
+.content1{
+      width: 50%;  
+}
+
+.content1 .side_bar{
+    width: 100%;
+    background-color: #00a8f3;
+    height: 213px;
+    line-height: 213px;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.container1{
+    display: flex;
     gap: 10px;
+    /* margin: 0 auto; */
 }
 
 .footer{
-    margin-top: 10px;
-    width: 625px;
+    /* width: 32%; */
     background-color: #dcd0f8;
-    height: 30px;
-    line-height: 30px;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid black;
     text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+
 }
+
+
+
