@@ -1,28 +1,35 @@
-body ,*{
+body,
+* {
     margin: 0;
     padding: 0;
 }
 
-.root{
+.root {
     width: 600px;
     margin: 0 auto;
     align-items: center;
 }
 
-
-.container .header{
+.container {
+    display: flex;
+    position: relative;
     width: 100%;
+    align-items: center;
+
+}
+
+.container .header {
+    width: 600px;
     background-color: #d5b8ee;
     height: 40px;
     line-height: 40px;
     padding: 10px;
     border: 2px solid black;
     margin: 0 auto;
-
 }
 
-.container .menu{
-    width: 30%;
+.container .menu {
+    width: 200px;
     background-color: #bff6cf;
     height: 20px;
     line-height: 20px;
@@ -33,17 +40,11 @@ body ,*{
     left: 300px;
 }
 
-.container{
-    display: flex;
-    position: relative;
-    align-items: center;
-}
-
-.content{
+.content {
     width: 50%;
 }
 
-.content .article1{
+.content .article1 {
     width: 100%;
     background-color: #bff6cf;
     height: 100px;
@@ -51,10 +52,10 @@ body ,*{
     text-align: center;
     border: 2px solid black;
     margin-top: 10px;
-   
+
 }
 
-.content .article2{
+.content .article2 {
     width: 100%;
     background-color: #bff6cf;
     height: 100px;
@@ -62,14 +63,15 @@ body ,*{
     text-align: center;
     border: 2px solid black;
     margin-top: 10px;
-   
+
 }
 
-.content1{
-      width: 50%;  
+.content1 {
+    width: 50%;
 }
 
-.content1 .side_bar{
+
+.content1 .side_bar {
     width: 100%;
     background-color: #00a8f3;
     height: 213px;
@@ -79,14 +81,13 @@ body ,*{
     margin-top: 10px;
 }
 
-.container1{
+.container1 {
     display: flex;
     gap: 10px;
-    /* margin: 0 auto; */
+
 }
 
-.footer{
-    /* width: 32%; */
+.footer {
     background-color: #dcd0f8;
     height: 50px;
     line-height: 50px;
@@ -96,6 +97,3 @@ body ,*{
     margin-top: 10px;
 
 }
-
-
-
