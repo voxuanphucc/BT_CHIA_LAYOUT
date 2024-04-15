@@ -1,5 +1,4 @@
-body,
-* {
+body,* {
     margin: 0;
     padding: 0;
 }
@@ -7,7 +6,7 @@ body,
 .root {
     width: 600px;
     margin: 0 auto;
-    align-items: center;
+    
 }
 
 .container {
