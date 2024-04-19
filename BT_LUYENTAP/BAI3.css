@@ -1,0 +1,245 @@
+body,* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+
+.header .content {
+    background-color: #fdd;
+    height: 50px;
+    line-height: 50px;
+    padding: 5px;
+
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+
+}
+
+.menu .item {
+    padding: 10px;
+    height: 20px;
+    line-height: 20px;
+
+}
+
+.menu .item:hover {
+    background-color: rgba(222, 208, 208, 0.858);
+
+}
+
+.container{
+    position: relative;
+}
+
+
+.container .content1 {
+    margin-top: 10px;
+}
+
+.content2 {
+    width: 50%;
+
+}
+
+.container .content2 {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 15px;
+   
+}
+
+.container .book_now {
+    background-color: #fdd;
+    width: fit-content;
+    height: 30px;
+    line-height: 30px;
+    padding: 10px;
+    color: black;
+    width: 150px;
+    text-align: center;
+    font-size: initial;
+}
+
+.content1 .book_now:hover {
+    background-color: rgba(222, 208, 208, 0.858);
+}
+
+.trainers {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.thecaretakers {
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(49, 44, 44, 0.47);
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.content3 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+
+
+.content4 {
+    margin-top: 30px;
+    width: 30%;
+    box-shadow: 2px 2px 10px black;
+
+}
+
+.content4 img {
+    width: 100%;
+
+}
+
+.book_now1 {
+    margin-top: 20px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fdd;
+    padding: 10px;
+
+}
+
+.book_now1:hover {
+    background-color: rgba(49, 44, 44, 0.47);
+
+}
+
+.activities {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.activities i {
+    color: rgba(222, 208, 208, 0.858);
+}
+
+.content5{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.content5 .learn_more:hover{
+    background-color: rgba(222, 208, 208, 0.858);
+}
+
+
+.content6{
+    width: 30%;
+    margin-top: 50px;
+}
+
+.content6 img{
+    width: 100%;
+}
+
+.content6 h3{
+    margin-top: 10px;
+}
+
+.content6 p{
+    margin-top: 20px;
+}
+
+.content6 .learn_more{
+    margin-top: 20px;
+    background-color: #fdd;
+    width: fit-content;
+    height: 20px;
+    line-height: 20px;
+    width: 25%;
+    padding: 10px;
+}
+
+.contact{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact i{
+    color: rgba(222, 208, 208, 0.858);
+}
+
+.contact1{
+    margin-top: 20px;
+    
+}
+
+#name1{
+    margin-top: 20px;
+}
+#name2{
+    margin-top: 20px;
+}
+
+.contact2{
+    border: 1px solid black;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.send_message{
+    margin-top: 20px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fdd;
+    
+}
+
+.send_message:hover{
+    background-color: rgba(222, 208, 208, 0.858);
+}
+
+.footer{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #fdd;
+    height: 170px;
+}
+
+.footer .icon{
+    margin-top: 20px;
+}
+.footer p{
+    margin-top: 20px;
+}
+
+.footer .start_now{
+    background-color: white;
+    width: fit-content;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
+    margin: 0 auto;
+
+}
+.footer .start_now:hover{
+    background-color: rgba(222, 208, 208, 0.858);
+    
+}
+
