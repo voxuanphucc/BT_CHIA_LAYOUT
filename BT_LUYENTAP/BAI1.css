@@ -3,40 +3,28 @@ body,* {
     padding: 0;
 }
 
-.box {
+.container{
     display: flex;
+    gap: 10px;
+    
 }
 
-.box .box1 {
-    width: 200px;
+.box{
+    width: 100px;
     height: 100px;
-    background-color: #ffd700;
+    background-color: yellow;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
     margin-right: auto;
 }
 
-.content {
-    display: flex;
-    gap: 5px;
-
-}
-
-.content .box2 {
+.boxx{
     width: 100px;
     height: 100px;
-    background-color: #ffd700;
-
-}
-
-.content .box3 {
-    width: 100px;
-    height: 100px;
-    background-color: #ffd700;
-}
-
-.box .box4 {
-    width: 200px;
-    height: 100px;
-    background-color: #ffd700;
+    background-color: yellow;
     margin-left: auto;
-
 }
