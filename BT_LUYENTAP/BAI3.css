@@ -79,14 +79,14 @@ body,* {
 .container .book_now {
     background-color: #fdd;
     height: 40px;
-    line-height: 40px;
+    line-height: 20px;
     color: black;
     width: 150px;
     font-size: initial;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-    align-content: center;
+  
 }
 
 .content1 .book_now:hover {
@@ -117,7 +117,6 @@ body,* {
     gap: 20px;
     justify-content: center;
     
-     
 }
 
 .content4 {
@@ -143,12 +142,10 @@ body,* {
     width: 95%;
     margin-top: 20px;
     height: 40px;
-    line-height: 40px;
+    line-height: 20px;
     background-color: #fdd;
     padding: 10px;
     text-align: center;
-    align-content: center;
-
 
 }
 
