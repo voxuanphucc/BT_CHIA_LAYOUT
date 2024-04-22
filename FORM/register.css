@@ -1,0 +1,186 @@
+body, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+input[type='text'], input[type='password']  {
+    border: 1px solid ;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: grey;
+
+}
+
+.total .container{
+    width: 450px;
+    text-align: center;
+    box-shadow: 0 5px 10px white 0 10px 20px white ;
+    background-color: white;
+    border-radius: 7px;
+
+}
+
+.headline{
+    padding: 15px;
+    border-bottom: 2px solid white;
+
+}
+
+.form-register *{
+    font-size: 0.98em;
+
+}
+
+.form-register{
+    padding: 15px;
+    text-align: left;
+
+}
+
+.full-name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.full-name div{
+    width: 48%;
+
+}
+
+.email{
+    margin-top: 10px;
+}
+
+
+.password{
+    margin-top: 10px;
+
+}
+
+.birthday{
+   padding-top: 15px;
+
+}
+
+.c-birthday{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.c-birthday div{
+    width: 100%;
+
+}
+
+ .month{
+    margin: 0 10px 0 10px;
+}
+
+.c-birthday select{
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.sex{
+    padding-top: 10px;
+}
+
+
+
+.f-sex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-sex div{
+    width: 100%;
+    border: 1px solid ;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-sex{
+    margin-top: 15px;
+
+}
+
+
+.custom-sex p{
+    margin-top: 4px;
+}
+
+
+.custom-sex select{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.custom-sex-name{
+    margin-top: 10px;
+
+}
+
+.btn-register{
+    text-align: center;
+    padding-top: 20px;
+  
+}
+
+.rule{
+    margin-top: 4px;
+
+}
+
+.btn-register button{
+    
+    width: 50%;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 7px;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    background-color: green;
+
+}
+
+.sub-headline a{
+    text-decoration: none;
+}
+
+.sub-headline {
+    text-align: center;
+
+    padding: 20px;
+}
+
+.font-sub{
+    padding-bottom: 4px;
+    font-size: 0.8em;
+    color: rgba(165, 172, 179, 0.484);
+    color: rgb(155, 24, 46);
+}
