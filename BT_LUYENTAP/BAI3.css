@@ -240,6 +240,12 @@ body,* {
 
 }
 
+
+#datetime{
+    border: none;
+    padding: 10px;
+}
+
 .contact2{
     border: 1px solid black;
     height: 50px;
@@ -250,12 +256,16 @@ body,* {
 .send_message{
     cursor: pointer;
     width: 98%;
-    margin: 0 auto;
-    margin-top: 20px;
-    text-align: center;
     height: 40px;
     line-height: 40px;
     background-color: #fdd;
+    border: none;
+    margin-top: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+
 
 }
 
