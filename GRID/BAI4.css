@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 20px;
+}
+
+.item{
+    background-color: gold;
+    border: 1px solid grey;
+    min-height:50px;
+   /* chiều cao tối thiểu của 1 phần tử
+    => cao tối đa 50px , */
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: 100px 200px 100px; */
+    grid-auto-rows: minmax(60px,auto);
+
+}
+.item-5{
+    grid-column: 2/4;
+}
