@@ -1,7 +1,8 @@
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px auto 50px;
+    grid-template-rows: 50px auto 50px;  
+    /* auto ở đây =650px */
     gap: 10px;
 }
 
@@ -14,7 +15,7 @@
 .content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 300px 100px 200px;
+    grid-template-rows: 300px 130px 200px;
     gap: 10px;
 }
 
@@ -46,7 +47,7 @@
 .content1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 70px 50px 420px 50px;
+    grid-template-rows: 70px 50px 450px 50px;
     gap: 10px;
    
 }
@@ -71,7 +72,7 @@
 }
 
 .content1 .box8{
-    background-color: red;
+    background-color: red;  
 }
 
 .content1 .box9{
